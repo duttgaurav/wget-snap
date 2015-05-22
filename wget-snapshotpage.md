@@ -112,10 +112,21 @@ via [GNU Wget 1.16.2 Manual: Directory Options (gnu.org)](http://www.gnu.org/sof
 
 --------
 
+
+
+
+
+
+
+
+
+
+
 ### Example usage and output
 
 ```sh
-user:~/data/wtfviz $ wget -E -H -k -K -nd -N -p -P florida-cfo-state-payments-dollar http://flair.myfloridacfo.com/approot/dispub2/cvphsrch.htm
+user:~/data/wtfviz $ wget -E -H -k -K -nd -N -p -P florida-cfo-state-payments-dollar \
+                     http://flair.myfloridacfo.com/approot/dispub2/cvphsrch.htm
 --2015-05-22 12:53:38--  http://flair.myfloridacfo.com/approot/dispub2/cvphsrch.htm
 Resolving flair.myfloridacfo.com... 158.229.251.10
 Connecting to flair.myfloridacfo.com|158.229.251.10|:80... connected.
