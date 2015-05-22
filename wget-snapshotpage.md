@@ -70,20 +70,20 @@ Because the original HTML are being converted via `--converted-links`, you might
 
 More info at [GNU Wget 1.16.2 Manual: Recursive Retrieval Options (gnu.org)](http://www.gnu.org/software/wget/manual/html_node/Recursive-Retrieval-Options.html) 
 
-#### `--page-requisites`, `p`
+#### `--page-requisites`, -`p`
 
 via [GNU Wget 1.16.2 Manual: Recursive Retrieval Options (gnu.org)](http://www.gnu.org/software/wget/manual/html_node/Recursive-Retrieval-Options.html):
 
 > This option causes Wget to download all the files that are necessary to properly display a given HTML page. This includes such things as inlined images, sounds, and referenced stylesheets.
 
-#### `--timestamping`, `N`
+#### `--timestamping`, `-N`
 
 This checks to see if `target.html.orig` (assuming `--convert-links` was used) already exists locally, and if so, if it is older than the remote server's timestamp for the file. If not, then wget won't bother to re-download the page. This only works if the remote server returns a `Last-Modified` header.
 
 More info at: [GNU Wget 1.16.2 Manual: Time-Stamping Usage (gnu.org)](http://www.gnu.org/software/wget/manual/html_node/Time_002dStamping-Usage.html#Time_002dStamping-Usage) 
 
 
-#### `--directory-prefix=someprefix`, `-P someprefix`, 
+#### <pre>--directory-prefix=<em>someprefix</em></pre>, <pre>-P *someprefix*</pre>, 
 
 Saves the mirrored page and its contents in a folder named `someprefix`
 
