@@ -17,7 +17,7 @@ wget -E -H -k -K -nd -N -p -P thepageslug \
 ```sh
 wget --adjust-extension --span-hosts --convert-links --backup-converted \
      --no-directories --timestamping --page-requisites \
-     --directory-prefix=thepageslug
+     --directory-prefix=thepageslug \
      http://www.thepage.to/save/four/posterity.html
 ```
 
