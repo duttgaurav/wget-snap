@@ -1,8 +1,14 @@
+
+![Money graphic via State of Florida CFO Vendor Payment Search](http://i.imgur.com/q0M6YyC.png)
+
+*Graphic via [State of Florida CFO Vendor Payment Search (flair.myfloridacfo.com)](http://flair.myfloridacfo.com/approot/dispub2/cvphsrch.htm)* 
+
+
 ## Use wget to mirror a single page and its visible dependencies (images, styles)
 
-This is a quick command I use to snapshot webpages that have a fun image I want to keep for my own collection of [WTFViz](http://viz.wtf/). Why not just right-click and save the image? Oftentimes the webpage that the image lives on contains necessary context.
+This is a quick command I use to snapshot webpages that have a fun image I want to keep for my own collection of [WTFViz](http://viz.wtf/). Why not just right-click and save the image? Oftentimes, the webpage in which the image is embedded contains necessary context, such as captions and links to important documentation just incase you forget what exactly that fun graphic was trying to explain.
 
-The result of this [wget command](http://www.gnu.org/software/wget/) is something a little more portable than a screenshot of said webpage and embedded graphic.
+The result of this [wget command](http://www.gnu.org/software/wget/) is something a little more portable than a screenshot of the target webpage and embedded graphic.
 
 ## Short form:
 
