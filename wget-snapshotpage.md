@@ -7,7 +7,7 @@ The result of this [wget command](http://www.gnu.org/software/wget/) is somethin
 ## Short form:
 
 ```sh
-wget -E -H -k -K -nd -p -P thepageslug \
+wget -E -H -k -K -nd -N -p -P thepageslug \
      http://www.thepage.to/save/four/posterity.html
 ```
 
@@ -15,8 +15,8 @@ wget -E -H -k -K -nd -p -P thepageslug \
 ## The long form:
 
 ```sh
-wget --adjust-extension --span-hosts --convert-links \
-     --backup-converted --no-directories --page-requisites \
+wget --adjust-extension --span-hosts --convert-links --backup-converted \
+     --no-directories --timestamping --page-requisites \
      --directory-prefix=thepageslug
      http://www.thepage.to/save/four/posterity.html
 ```
