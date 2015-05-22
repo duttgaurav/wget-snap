@@ -83,7 +83,7 @@ This checks to see if `target.html.orig` (assuming `--convert-links` was used) a
 More info at: [GNU Wget 1.16.2 Manual: Time-Stamping Usage (gnu.org)](http://www.gnu.org/software/wget/manual/html_node/Time_002dStamping-Usage.html#Time_002dStamping-Usage) 
 
 
-#### <pre>--directory-prefix=<em>someprefix</em></pre>, <pre>-P *someprefix*</pre>, 
+#### <code>--directory-prefix=<em>someprefix</em></code>, <code>-P <em>someprefix</em></code>, 
 
 Saves the mirrored page and its contents in a folder named `someprefix`
 
