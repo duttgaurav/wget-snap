@@ -1,7 +1,7 @@
 ## Use wget to mirror a single page and its visible dependencies (images, styles)
 
 
-![Money graphic via State of Florida CFO Vendor Payment Search](http://i.imgur.com/q0M6YyC.png)
+![Money graphic via State of Florida CFO Vendor Payment Search](http://i.imgur.com/CGt9Y9b.jpg)
 
 *Graphic via [State of Florida CFO Vendor Payment Search (flair.myfloridacfo.com)](http://flair.myfloridacfo.com/approot/dispub2/cvphsrch.htm)* 
 
